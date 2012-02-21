@@ -1,0 +1,6 @@
+1. Edit Cryptose.mkb. For android, uncomment gles1-atitc.gz, for iphone and bada comment it out
+2. Open project, edit config.h and choose platform
+3. Change version number for appropriate app store
+4. Deploy it
+5. ...
+6. Profit!

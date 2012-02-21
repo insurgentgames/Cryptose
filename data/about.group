@@ -1,0 +1,14 @@
+CIwResGroup 
+{ 
+	name "About" 
+	"./Graphics/Backgrounds/BackgroundLights.png" 
+	"./Graphics/About/AboutHeader.png" 
+	"./Graphics/About/AboutBack1.png"
+	"./Graphics/About/AboutBack2.png"
+	"./Graphics/About/AboutText.png"
+	"./Graphics/About/AboutEFF.png"
+	"./Graphics/About/AboutGnuPG.png"
+	"./Graphics/About/AboutTruecrypt.png"
+	"./Graphics/About/AboutFeedback.png"
+	"./Graphics/About/AboutMusicCredit.png"
+} 

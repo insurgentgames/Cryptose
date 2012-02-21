@@ -1,0 +1,7 @@
+CIwResGroup 
+{ 
+	name "Fact" 
+	"./Graphics/Backgrounds/BackgroundLights.png" 
+	"./Graphics/Fact/FactContinue.png"
+	"./Fonts/FontGeorgia17.gxfont"
+} 

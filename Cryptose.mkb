@@ -1,0 +1,102 @@
+# for android, keep including gles1-atitc.dz
+# for iphone and bada, comment that line out
+
+files
+{
+	(source)
+	main.cpp
+	scene_menu.h
+	scene_menu.cpp
+	scene_fact.h
+	scene_fact.cpp
+	scene_game.h
+	scene_game.cpp
+	scene_about.h
+	scene_about.cpp
+	scene_help.h
+	scene_help.cpp
+	settings.h
+	settings.cpp
+	sqlite3_wrapper.h
+	sqlite3_wrapper.cpp
+	sounds.h
+	sounds.cpp
+	config.h
+	(source/ig2d)
+	ig.h
+	ig_animation.h
+	ig_animation.cpp
+	ig_button.h
+	ig_button.cpp
+	ig_director.h
+	ig_director.cpp
+	ig_distorter.h
+	ig_distorter.cpp
+	ig_global.h
+	ig_global.cpp
+	ig_label.h
+	ig_label.cpp
+	ig_node.h
+	ig_node.cpp
+	ig_resource_manager.h
+	ig_resource_manager.cpp
+	ig_scene.h
+	ig_scene.cpp
+	ig_sprite.h
+	ig_sprite.cpp
+	ig_touches.h
+	ig_touches.cpp
+}
+
+assets
+{	
+	(data)
+	facts.db
+	phrases.db
+	savedGame.db
+	settings.db
+	music.mp3
+	splash.jpg
+	
+	(archive)
+	sounds.dz
+	gles1.dz
+	gles1-atitc.dz
+}
+
+subprojects
+{
+	iw2d
+	derbh
+	third_party/sqlite3
+}
+
+deployments
+{
+	["iphone"]
+	iphone-appid='com.insurgentgames.cryptose'
+	iphone-icon=other_files/ios/iphone_icon.png
+	iphone-splash=other_files/ios/Default.png
+	iphone-provisioning-profile=other_files/ios/Cryptose_AdHoc.mobileprovision
+	iphone-icon-high-res=other_files/ios/iphone_hires_icon.png
+	iphone-icon-ipad=other_files/ios/ipad_icon.png
+	iphone-prerendered-icon='1'
+	itunes-artwork=other_files/ios/itunes_icon.png
+	iphone-sign-for-distribution='1'
+	version-string='1.1'
+	
+	["android"]
+	android-aliasname='micah_android'
+	android-icon=other_files/android/icon.png
+	version-string='1.1.1'
+	version-major=1
+	version-minor=1
+	version-revision=1
+
+	["bada"]
+	bada-manifest=other_files/bada/manifest.xml
+	bada-icon=other_files/bada/Application.png
+	bada-splash=other_files/bada/Splash.png
+	version-string='1.0.0'
+	bada-unsigned=1
+}

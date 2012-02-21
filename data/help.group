@@ -1,0 +1,8 @@
+CIwResGroup 
+{ 
+	name "Help" 
+	"./Graphics/Help/HelpPage1.png" 
+	"./Graphics/Help/HelpPage2.png" 
+	"./Graphics/Help/HelpPage3.png" 
+	"./Graphics/Help/HelpContinue.png"
+} 

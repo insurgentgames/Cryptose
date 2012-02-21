@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Application>
+    <Entry>s3e</Entry>
+    <Name>Cryptose</Name>
+    <Version>1.0.0</Version>
+    <Icons>
+        <MainMenu>Application.png</MainMenu>
+        <LaunchImage>Splash.png</LaunchImage>
+        <Setting/>
+        <Ticker/>
+        <QuickPanel/>
+        <Loading/>
+    </Icons>
+    <Vendor/>
+    <Description/>
+</Application>
